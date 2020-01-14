@@ -1,0 +1,597 @@
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+  /* Start NavBar */
+
+  .navbar .navbar-nav li {
+    margin-right: 0px !important;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.4rem;
+    padding-left: 0.4rem;
+  }
+
+  .navbar .navbar-nav li a {
+    font-size: 14px;
+  }
+
+  /* End NavBar */
+
+  /* Start Search For Round */
+
+  .search-for-round .icon-with-text {
+    display: inline-block;
+    color: #fff;
+    float: right;
+    width: 40%;
+    margin-top: 15%;
+    margin-right: 5%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .search-for-round .icon-with-text .text {
+    position: absolute;
+    top: 5px;
+    left: 25px;
+  }
+
+  /* End Search For Round */
+
+  /* Start Ele3tmad Eldawly */
+
+  .e3tmad .second-div:before {
+    position: absolute;
+    content: "";
+    top: -30px;
+    left: 0;
+    background-color: transparent !important;
+    background-image: url(../images/iase_border.png);
+    width: 100%;
+    height: 50%;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .for-border.second-div {
+    padding: 16px;
+    font-size: 15px;
+  }
+  /* End Ele3tmad Eldawly */
+
+  /* Start Trainers */
+
+  .trainers .effect .mask {
+    position: absolute;
+    content: "";
+    opacity: 0;
+    overflow: visible;
+    background-color: rgba(255, 203, 5, 0.6);
+    width: 201px;
+    height: 200px;
+    border-radius: 50%;
+    display: none;
+  }
+
+  .trainers .effect:hover .mask {
+    opacity: 1;
+    top: 0;
+    left: 20px;
+    display: block;
+  }
+  /* End Trainers */
+
+  /* Start Two Images */
+
+  .two-img .for-top {
+    position: absolute;
+    left: 0%;
+    top: -152px;
+  }
+  /* End Two Images */
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  /* Start FrameWork*/
+
+  .line-after:before {
+    left: 48.9%;
+  }
+
+  /* End FrameWork*/
+
+  /* Start Slider  */
+
+  #carouselExampleIndicators .carousel-inner button {
+    bottom: 15% !important;
+  }
+
+  #carouselExampleIndicators .carousel-indicators {
+    left: 70px !important;
+  }
+
+  /* End Slider  */
+
+  /* Start Search For Round */
+
+  .search-for-round .icon-with-text {
+    display: inline-block;
+    color: #fff;
+    float: right;
+    width: 51%;
+    margin-top: 10%;
+    margin-right: 0;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .search-for-round .icon-with-text .text {
+    position: absolute;
+    top: 5px;
+    left: 0;
+  }
+
+  /* End Search For Round */
+
+  /* Start Ele3tmad Eldawly */
+
+  .e3tmad .for-border {
+    border: 2px solid #0071ae;
+    padding: 50px 20px;
+    position: relative;
+  }
+
+  .e3tmad .second-div:before {
+    position: absolute;
+    content: "";
+    top: -64px;
+    left: 8px;
+    background-color: #fff !important;
+    background-image: url(../images/iase_border.png);
+    width: 94%;
+    height: 50%;
+    z-index: 1;
+    background-repeat: no-repeat;
+  }
+
+  .for-border.second-div {
+    padding: 38px;
+    margin-bottom: 2rem;
+  }
+
+  .e3tmad .for-border {
+    margin-top: 12px;
+  }
+
+  .e3tmad .for-border p {
+    margin-top: 12px;
+  }
+
+  .e3tmad button {
+    color: #0071ae;
+    margin-top: 50px;
+    background: none;
+    border: 1px solid #0071ae;
+  }
+  /* End Ele3tmad Eldawly */
+
+  /* Start Courses */
+
+  .courses .card-img-top {
+    margin-bottom: 30px;
+  }
+
+  .courses .card > span:first-of-type {
+    padding: 5px 15px;
+    font-size: 15px;
+  }
+
+  .courses .card > span:nth-of-type(2) {
+    position: relative;
+    content: "";
+    top: 0;
+    left: 0;
+    font-size: 15px;
+  }
+
+  .courses .round-img {
+    top: 60px;
+    right: 25%;
+  }
+
+  .courses .rate {
+    position: relative;
+    top: 0;
+    z-index: 1;
+    font-size: 12px;
+  }
+
+  .courses .card:hover > span:nth-of-type(2) {
+    position: absolute;
+    top: 100px !important;
+    left: 45px;
+  }
+
+  .courses .card:hover div.rate {
+    position: absolute;
+    top: 122px !important;
+    left: 35px;
+  }
+
+  .courses .card:hover .card-img-top {
+    margin-bottom: 70px !important;
+  }
+
+  .courses .card .details .group p {
+    font-size: 12px;
+  }
+
+  .courses button {
+    font-size: 15px;
+  }
+
+  /* End Courses */
+
+  /* Start Acadimic Books */
+
+  .acadimic-books span:first-of-type,
+  .acadimic-books span:last-of-type {
+    position: relative;
+    display: block;
+    background-color: #ffcb05;
+    padding: 5px 25px 5px 30px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    left: 0;
+    right: 0;
+  }
+
+  .acadimic-books span:first-of-type:after,
+  .acadimic-books span:last-of-type:after {
+    position: absolute;
+    content: "\f1c1";
+    font-family: "Font Awesome\ 5 Free";
+    font-weight: 900;
+    color: #443535;
+    font-size: 15px;
+    margin-right: 4px;
+    top: 7px;
+  }
+
+  .acadimic-books span:last-of-type {
+    background-color: #0171ad;
+    color: #fff;
+  }
+
+  .acadimic-books span:last-of-type:after {
+    content: "\f02d";
+  }
+
+  /* End Acadimic Books */
+
+  /* Start Trainers */
+
+  .trainers .effect .mask {
+    position: absolute;
+    content: "";
+    opacity: 0;
+    overflow: visible;
+    background-color: rgba(255, 203, 5, 0.6);
+    width: 201px;
+    height: 200px;
+    border-radius: 50%;
+    display: none;
+  }
+
+  .trainers .effect:hover .mask {
+    opacity: 1;
+    top: 0;
+    left: 20px;
+    display: block;
+  }
+
+  .trainers .row .col:last-child .effect:hover .mask {
+    position: absolute;
+    top: 0;
+    left: 260px;
+  }
+
+  .trainers .effect ul {
+    left: 43%;
+  }
+  /* End Trainers */
+
+  /* Start Two Images */
+  .two-img .for-top {
+    position: relative;
+    left: 0%;
+    top: 0;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .two-img p,
+  .two-img h3 {
+    position: absolute;
+    left: 0%;
+  }
+
+  .two-img p {
+    bottom: 20%;
+  }
+  .two-img h3 {
+    bottom: 10%;
+  }
+  /* End Two Images */
+}
+
+@media screen and (max-width: 768px) and (min-width: 600px) {
+  /* Start FrameWork*/
+
+  .line-after:before {
+    left: 48.5%;
+  }
+
+  /* End FrameWork*/
+
+  /* Start Ele3tmad Eldawly */
+
+  .e3tmad .line-after + p {
+    font-size: 16px;
+  }
+  .e3tmad .second-div:before {
+    left: 20%;
+    width: 55%;
+    background-repeat: no-repeat;
+  }
+
+  .for-border.second-div {
+    padding: 38px;
+    margin-bottom: 2rem;
+    margin-top: 6rem !important;
+  }
+
+  .e3tmad .for-border {
+    margin-top: 12px;
+  }
+
+  /* End Ele3tmad Eldawly */
+
+  /* Start Trainers */
+  .trainers {
+    background-position: center;
+  }
+
+  .trainers .effect:hover .mask {
+    left: 35px;
+  }
+
+  .trainers h2 {
+    margin-bottom: 40px;
+  }
+  /* End Trainers */
+}
+
+@media screen and (max-width: 768px) {
+  /* Start FrameWork */
+  .line-after:before {
+    left: 48.5%;
+  }
+  /* End FrameWork */
+
+  /* Start Slider  */
+
+  #carouselExampleIndicators .carousel-inner button {
+    bottom: 15% !important;
+  }
+
+  #carouselExampleIndicators .carousel-indicators {
+    left: 80px !important;
+  }
+
+  /* End Slider  */
+
+  /* Start Welcome */
+
+  .welcome p {
+    font-size: 16px;
+    line-height: 2;
+  }
+  .welcome a {
+    left: 0;
+    right: 0;
+    bottom: 17px;
+    font-size: 16px;
+  }
+
+  /* End Welcome */
+
+  /* Start Slider */
+  #carouselExampleIndicators
+    .carousel-inner
+    > .carousel-item
+    .carousel-caption {
+    top: 0% !important;
+  }
+
+  /* End Slider */
+
+  /* Start Search For Round */
+  .search-for-round {
+    background-position: center;
+  }
+
+  .search-for-round .holder {
+    margin: 0;
+  }
+
+  .search-for-round .icon-with-text .text {
+    position: absolute;
+    top: 5px;
+    left: 15px;
+  }
+
+  .search-for-round .card {
+    float: none;
+    margin: 30px auto 0;
+  }
+  /* End Search For Round */
+
+  /* Start Client Reviews */
+
+  .client-rev .carousel-inner {
+    text-align: center;
+  }
+
+  .client-rev .carousel-item .box-holder {
+    width: 80% !important;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    border-left: 0px;
+    background-color: none !important;
+  }
+
+  .client-rev .carousel-item .box-holder p {
+    font-size: 16px;
+    padding: 21px 15px;
+  }
+
+  .client-rev ul {
+    margin-top: 4%;
+  }
+
+  .client-rev li {
+    cursor: default;
+    border: 0;
+  }
+  .client-rev li i {
+    cursor: pointer;
+    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  /* End Client Reviews */
+  /* Start Two Images */
+  .two-img .for-top {
+    position: relative;
+    left: 0%;
+    top: 0;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .two-img p,
+  .two-img h3 {
+    position: absolute;
+    left: 0%;
+  }
+
+  .two-img p {
+    bottom: 20%;
+  }
+  .two-img h3 {
+    bottom: 10%;
+  }
+  /* End Two Images */
+
+  /* Start Articles*/
+
+  .articles .center {
+    width: 50%;
+  }
+  .articles .writer-info p {
+    margin: 0;
+  }
+  .articles .center h5 {
+    font-size: 15px;
+  }
+
+  .articles .last {
+    width: 39%;
+  }
+
+  .articles .date {
+    margin-top: 5px;
+  }
+
+  .articles .last img {
+    width: 100%;
+  }
+
+  .articles .card .last .articles-overlat {
+    width: 35.4%;
+    height: 66%;
+  }
+
+  /* End Articles*/
+
+  /* Start Footer */
+  .swidish_footer .swidish_content .news_letter_content .newsletter_description,
+  .swidish_footer .swidish_content .about_swidish_content .about_description {
+    line-height: 1;
+    font-size: 9pt;
+    text-align: left;
+    padding: 0;
+  }
+
+  .swidish_footer .swidish_content .news_letter_content .newsletter_text,
+  .swidish_footer .swidish_content .contact_swidish_content .contact_text,
+  .swidish_footer .swidish_content .about_swidish_content .about_name {
+    font-size: 14pt;
+  }
+
+  .swidish_footer
+    .swidish_content
+    .contact_swidish_content
+    .contact_info
+    li
+    span {
+    width: 78%;
+    line-height: 1.2;
+    text-align: right;
+  }
+
+  .swidish_footer
+    .swidish_content
+    .contact_swidish_content
+    .contact_info
+    li
+    .fa-map-marker:before {
+    position: relative;
+    top: -14px;
+  }
+
+  .swidish_footer .swidish_content .contact_swidish_content .contact_info li,
+  .swidish_footer .swidish_content .news_letter_content .news_email_input {
+    text-align: center;
+  }
+
+  .swidish_footer .swidish_content .contact_swidish_content .contact_info li,
+  .swidish_footer .swidish_content .news_letter_content .news_email_input {
+    font-size: 9pt;
+  }
+
+  .swidish_footer .swidish_content .news_letter_content .swidish_social li {
+    width: 30%;
+  }
+
+  /* End Footer */
+}
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {...}*/
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...}*/
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...}*/
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...}*/
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...}*/
